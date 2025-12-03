@@ -44,14 +44,55 @@ coordinates = (10, 220, 30, 99, 40);
 #  ============ Practivce Questions ================
 movies = []
 
-answer1 = print(input("Enter 1st Favourite Movie: "))
+# answer1 = (input("Enter 1st Favourite Movie: "))
 
-movies.append(answer1)
-answer2 = print(input("Enter 2nd Favourite Movie: "))
-movies.append(answer2)
-answer3 = print(input("Enter 3rd Favourite Movie: "))
-movies.append(answer3)
-print("Your Favourite Movies are: ")
-print(movies)
-for movie in movies:
-    print(movie)    
+# movies.append(answer1)
+# answer2 = (input("Enter 2nd Favourite Movie: "))
+# movies.append(answer2)
+# answer3 = (input("Enter 3rd Favourite Movie: "))
+# movies.append(answer3)
+# print("Your Favourite Movies are: ")
+# print(movies)
+
+
+list1 = [1, 2, 3, 4, 5]
+
+answer1 = list(reversed(list1))
+# print(answer1)  # Output: [5, 4, 3, 2, 1]
+
+
+if(list1 == answer1):
+    isPalindrome = True
+    print("The list is a Palindrome")
+else:
+    isPalindrome = False
+    print("The list is not a Palindrome")    
+
+list2 = [1, 2, 3, 2, 1]
+answer2 = list(reversed(list2))
+if(list2 == answer2):
+    isPalindrome = True
+    print("The list is a Palindrome")
+else:
+    isPalindrome = False
+    print("The list is not a Palindrome")
+
+list3 = ["a", "b", "c", "b", "a"]
+answer3 = list(reversed(list3))
+if(list3 == answer3):
+    isPalindrome = True
+    print("The list is a Palindrome")
+else:
+    isPalindrome = False
+    print("The list is not a Palindrome")
+
+
+list4 = [4,2,4,2,4,0]
+list5 = list4.copy()
+list5.reverse()
+if(list4 == list5):
+    isPalindrome = True
+    print("The list is a Palindrome")
+else:
+    isPalindrome = False
+    print("The list is not a Palindrome")
