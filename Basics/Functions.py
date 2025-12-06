@@ -77,3 +77,4 @@ def modify_list(lst):
     return lst
 my_list = [1, 2, 3]
 # print("Modified list:", modify_list(my_list))
+# print("Original list after function call:", my_list)
