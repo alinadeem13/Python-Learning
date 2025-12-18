@@ -68,7 +68,9 @@ print(dataFrame.iloc[-2:])
 # Q4. Filter the DataFrame to show only people with Age > 25.
 
 print("AGE GREATER 25 ==============")
-print(dataFrame["Age"] > 25)
+# print(dataFrame["Age"] > 25)
+print(dataFrame[dataFrame["Age"] > 25])
+
 
 # Q5. Add a new column “IsAdult” which is True if Age ≥ 18 else False.
 
