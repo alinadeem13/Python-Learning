@@ -44,13 +44,13 @@
 #     print("file not found")
 
 
-import json
+# import json
 
-with open("file2.json", "w") as f:
-    json.dump([1, 2, 3, 4], f)
+# with open("file2.json", "w") as f:
+#     json.dump([1, 2, 3, 4], f)
 
 
-with open("file2.json", "r") as f:
-    numbers = json.load(f)
+# with open("file2.json", "r") as f:
+#     numbers = json.load(f)
 
-print(sum(numbers))
+# print(sum(numbers))
